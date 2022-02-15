@@ -19,7 +19,7 @@ namespace mis321_pa2_cwray2
             // {
             //     displayMenu = Menu();
             // }
-
+            Menu();
             WriteLine();
             WriteLine();
 
@@ -49,42 +49,34 @@ namespace mis321_pa2_cwray2
 
         }
 
-        static void Menu()
-        {
+        static void Menu() {
             int menuChoice = GetMenuChoice();
-            while (menuChoice != 4)
-            {
-                while (menuChoice != 1 && menuChoice != 2 && menuChoice != 3)
-                {
+            while (menuChoice != 4) {
+                while (menuChoice != 1 && menuChoice != 2 && menuChoice != 3) {
                     Console.WriteLine("Invalid Selection");
                     menuChoice = GetMenuChoice();
                 }
 
-                if (menuChoice == 1)
-                {
+                if (menuChoice == 1) {
                     HoldYourHorses();
                 }
-                else if (menuChoice == 2)
-                {
+                else if (menuChoice == 2) {
                     HoldYourHorses();
                 }
-                else if (menuChoice == 3)
-                {
+                else if (menuChoice == 3) {
                     HoldYourHorses();
                 }
                 menuChoice = GetMenuChoice();
             }
         }
 
-        static int GetMenuChoice()  //method to get the users choice for the menu
-        {
+        static int GetMenuChoice() {  //method to get the users choice for the menu
             //Console.Clear();
             Console.WriteLine("Welcome to  Big Al's Playlist! \n1)Show All Songs \n2)Add a Song \n3)Delete a Song \n4)Exit");
             return int.Parse(Console.ReadLine());
         }
 
-        static void HoldYourHorses()  //method to prevent the program from immediately looping back to the menu
-        {
+        static void HoldYourHorses() {  //method to prevent the program from immediately looping back to the menu
             Console.WriteLine("Press any key to continue to the menu: ");
             Console.ReadKey();
             Console.Clear();
