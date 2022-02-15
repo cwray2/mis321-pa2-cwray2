@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "20+RX6k8uqj+vNbyZz8yvDyEpliTiFW6YqwJtoG33YjE4e5bdknzkdjoFAQ/oHnA3CECqLE8jXMBbRybxRvPNw==",
+  "success": true,
+  "projectFilePath": "C:\\source\\MIS-321\\projects\\mis321-pa2-cwray2\\mis321-pa2-cwray2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.14\\microsoft.netcore.app.host.win-x64.5.0.14.nupkg.sha512"
+  ],
+  "logs": []
+}
