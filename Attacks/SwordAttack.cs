@@ -6,7 +6,7 @@ namespace mis321_pa2_cwray2
     public class SwordAttack : IAttackBehavior
     {
         public void Attack() {
-            System.Console.WriteLine("Sword attack used");
+            Console.WriteLine("Sword attack used");
         }
     }
 }
